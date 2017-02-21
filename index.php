@@ -22,10 +22,7 @@
     	</form>
     </div>
     <?php
-    	require 'functions.php';	
-	
-		
-
+    	include 'functions.php';	
 		mysql_upload ($_POST[name],$_POST[text]);
 	?>
 	
